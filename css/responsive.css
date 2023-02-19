@@ -1,0 +1,77 @@
+
+@media (max-width: 1023px) {
+    .header-top {
+        display: none;
+    }
+
+    .swiper {
+        height: 100%;
+    }
+
+    .app__content {
+        padding: 8px;
+    }
+
+    .logo-header {
+        text-align: center;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+
+    #nav-menu{
+        display: none;
+    }
+ 
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .ss_banner {
+        display: none;
+    }
+    
+    .discount_banner-title h3 {
+        font-size: 25px;
+    }
+
+    .discount_banner-title h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 739px) {
+
+    .ss_banner {
+        display: none;
+    }
+
+    .footer__content {
+        padding: 0 16px;
+    }
+
+    .discount_banner-title h3 {
+        font-size: 17px;
+    }
+
+    .discount_banner-title h2 {
+        font-size: 17px;
+    }
+
+    .discount_banner-title p {
+        font-size: 12px;
+    }
+
+    .header__search-select select {
+        display: none;
+    }
+
+    .header__logo-img {
+        width: 65px;
+        padding-right: 10px;
+    }
+
+ 
+
+}

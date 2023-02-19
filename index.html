@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="icon" href="images/logo.png">
+    <title>Alarm Shopping</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <!-- Header-top -->
+        <div class="header-top">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6 m-6 c-12">
+                        <p>Chào mừng đến với Alarm Shopping</p>
+                    </div>
+
+                    <div class="col l-6 m-6 c-12">
+                        <div class="top-menu">
+                            <ul>
+                                <li><a href="#">Giỏ hàng</a></li>
+                                <li><a href="#">Cửa hàng</a></li>
+                                <li><a href="#">Tài khoản</a></li>
+                                <li><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header-top -->
+        
+        <!-- Header-center -->
+        <div class="header-center">
+            <div class="grid wide">
+                <div class="header-with-search">
+                    <!-- MOBLIE -->
+                    <label for="nav-moblie-input" class="fas fa-bars" id="menu-btn"></label>
+                    <input type="checkbox" name="" class="nav__input" id="nav-moblie-input">
+                    <label for="nav-moblie-input" class="nav__overlay"></label>
+                    <div class="nav__mobile-menu">
+                        <label for="nav-moblie-input" class="fa fa-xmark" id="close-btn"></label>
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Sản phẩm</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Tuyển dụng</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul> 
+                    </div>
+                    <!-- END MOBILE -->
+                    <div class="logo-header">
+                        <a href="#"><img src="images/logo.png" alt="" class="header__logo-img"></a>
+                    </div> 
+
+                    <div class="header__search">
+                        <div class="header__search-select">
+                            <form action="/" method="GET" role="form">
+                                <select name="" id="input" class="form-control" required="required">
+                                    <option value="">Chọn danh mục</option>
+                                    <option value="1">Điện thoại</option>
+                                    <option value="2">Máy tính bản</option>
+                                    <option value="3">Lap top</option>
+                                    <option value="4">Phụ kiện</option>
+                                </select>
+                            </form>  
+                        </div>
+
+                        <div class="header__search-input">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm...">
+                        </div>
+
+                        <button type="submit" class="header__search-btn">
+                            <i class="header__search-btn-icon fa fa-search"></i>  
+                        </button>
+                    </div>
+
+                    <div class="header__cart">
+                        <i class="header__cart-icon fa fa-shopping-cart"></i> 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End Header-center -->
+
+        <!-- Header-bottom -->
+        <div class="header-bottom">
+            <div class="grid wide">
+                <div id="nav-menu">
+                    <ul>
+                        <li class="current-menu-item"><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Sản phẩm</a>
+                            <ul>
+                                <li><a href="#">Kính mắt</a></li>
+                                <li><a href="#">Ví da</a></li>
+                                <li><a href="#">Đồng hồ</a></li>
+                                <li><a href="#">Giày dép</a></li>
+                                <li><a href="#">Đồ trang sức</a></li>
+                                <li><a href="#">Túi xách</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header-bottom -->
+    </header>
+    <!-- END HEADER SECTION -->
+    
+    <!-- CONTAINER -->
+
+    <!-- slider-images -->
+    <div class="slide-container">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-8 m-12 c-12">
+                    <div class="swiper slide-banner">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="images/slide1.png" alt=""></div>
+                          <div class="swiper-slide"><img src="images/slide2.png" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                     <div class="ss_banner">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="ss_banner-img">
+                                    <img src="images/slide3.PNG" alt="">
+                                </div>
+                                
+                            </div>
+
+                            <div class="col l-6 m-6 c-12">
+                                <div class="ss_banner-img">
+                                    <img src="images/slide4.PNG" alt="">
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+                <div class="col l-4 m-0 c-0">
+                    <div class="banner_img_1">
+                        <img src="images/slide5.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End slider-images -->
+
+    <!-- Sidebar-Product -->
+    <div class="product-box">
+        <div class="grid wide">
+            <div class="row">
+                <!-- sidebar -->
+                <div class="col l-3 m-0 c-0">
+                    <div class="sidebar">
+
+                        <!-- category-box -->
+                        <div class="category-box">
+                            <h3>Danh mục sản phẩm</h3>
+                            <div class="sidebar-title">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-fire"></i>Khuyến mãi gốc</a></li>
+                                    <li><a href="#"><i class="fa fa-male"></i>Thời trang nam</a></li>
+                                    <li><a href="#"><i class="fa fa-female"></i>Thời trang nữ</a></li>
+                                    <li><a href="#"><i class="fa fa-eye"></i>Kính mắt thời trang</a></li>
+                                    <li><a href="#"><i class="fa fa-universal-access"></i>Phụ kiện hot</a></li>
+                                    <li><a href="#"><i class="fa fa-cart-plus"></i>Giày dép</a></li>
+                                    <li><a href="#"><i class="fa fa-clock"></i></i>Đồng hồ</a></li>
+                                    <li><a href="#"><i class="fa fa-diamond"></i>Đồ trang sức</a></li>
+                                    <li><a href="#"><i class="fa fa-shopping-bag"></i>Balô</a></li>
+                                    <li><a href="#"><i class="fa fa-suitcase"></i>Túi xách</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- widget -->
+                        <div class="widget">
+
+                            <h3><i class="fa fa-bars"></i>Tin tức</h3>
+
+                            <div class="content-w">
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="images/giayboot.jpg" alt=""></a>
+                                        <h4><a href="#">Cách chọn mua giày boot nữ để luôn sang đẹp trong tiết trời lạnh</a></h4>
+                                        <div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/giaycaogot.jpg" alt=""></a>
+                                        <h4><a href="#">4 kiểu giày cao gót sành điệu, dễ phối đồ mà hội chị em nên sở hữu</a></h4>
+                                        <div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/matkinh.jpg" alt=""></a>
+                                        <h4><a href="#">Kính chống tia UV: Chọn sao cho đúng ?</a></h4>
+                                        <div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/mucaoboi.jpg" alt=""></a>
+                                        <h4><a href="#">Câu chuyện về chiếc Mũ cao bồi biểu tượng nước Mỹ nơi miền Tây hoang dã</a></h4>
+                                        <div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/tuixachnam.jpg" alt=""></a>
+                                        <h4><a href="#">Mua hàng online của Lata Việt Nam, khách hàng nhận được toàn sản phẩm lỗi</a></h4>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="widget">
+                            <h3><i class="fa fa-bars"></i>Quảng cáo</h3>
+
+                            <div class="content-banner">
+                                <a href="#">
+                                    <img src="images/slide6.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End sidebar -->
+
+                <!-- Product -->
+                <div class="col l-9 m-12 c-12">
+                    <div class="product-section">
+                        <h2 class="title-product">
+                            <div class="row">
+                                <div class="col l-4 m-0 c-0">
+                                    <a href="#" class="title">Sản phẩm nổi bật</a>
+                                </div>
+
+                                <div class="col l-8 m-12 c-12">
+                                    <div class="list-child">
+                                        <ul>
+                                            <li><a href="#">Thời trang nam</a></li>
+                                            <li><a href="#">Thời trang nữ</a></li>
+                                            <li><a href="#">Phụ kiện hot</a></li>
+                                            <li><a href="#">Đồ trang sức</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </h2>
+
+                        <!-- content-product-box -->
+                        <div class="content-product-box">
+                            <div class="row">
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/balonam.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>5%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Balo nam đa năng đựng laptop MTB</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">290.000₫</span>
+                                                <span class="price-old">590.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/donghonu1.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>15%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Đồng hồ Nữ Elio EL008-01</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">28.990.000₫</span>
+                                                <span class="price-old">33.990.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/tuixachnu.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>10%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Túi Xách Nữ Da Thật ONLYY OT23</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">8.990.000₫</span>
+                                                <span class="price-old">13.990.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/balonu.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>15%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Balo nữ đẹp thời trang trẻ trung Parfois</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">450.000₫</span>
+                                                <span class="price-old">520.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <div class="home-product-item__img"></div>
+                                            <a href="#"><img src="images/donghonam1.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>5%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Đồng hồ Nam Citizen BI5000-87A</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">18.990.000₫</span>
+                                                <span class="price-old">20.990.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/giaydevuong.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>10%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Giày sandal gót vuông SULILY</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">490.000₫</span>
+                                                <span class="price-old">590.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/vongbac.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>15%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Vòng Tay Pandora Moments</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">5.590.000₫</span>
+                                                <span class="price-old">6.990.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/donghonu.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>5%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Đồng hồ Nữ Elio EL006-01</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">15.990.000₫</span>
+                                                <span class="price-old">20.990.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/vong.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>20%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Lắc tay mã não Ấn Độ giác Longgem</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">790.000₫</span>
+                                                <span class="price-old">990.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/donghonam2.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>5%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Đồng hồ Q&Q S280J312Y</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">5.990.000₫</span>
+                                                <span class="price-old">7.990.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/tuinu.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>10%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Túi xách + túi đeo chéo phối hạt SID61600</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">2.990.000₫</span>
+                                                <span class="price-old">3.990.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/aokhoacnam1.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>20%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Áo Khoác Nam 2 Lớp Có Túi Trong</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">690.000₫</span>
+                                                <span class="price-old">890.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/giaynam1.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>15%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Giày Lười Da Bò Nam AG0169</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">3.590.000₫</span>
+                                                <span class="price-old">5.590.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/aosominu1.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>10%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Áo Sơ mi Nữ ngắn tay ASNN02402</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">190.000₫</span>
+                                                <span class="price-old">250.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/kinhmat.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>15%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Kính Mát Nữ GM Gentle Monster Her</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">350.000₫</span>
+                                                <span class="price-old">490.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-6">
+                                    <div class="item-product">
+                                        <div class="thumb">
+                                            <a href="#"><img src="images/non.jpg" alt=""></a>
+                                            <span class="sale">Giảm <br>10%</span>
+                                            <div class="action">
+                                                <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="info-product">
+                                            <h4><a href="#">Mũ phớt thắt da MP02</a></h4>
+                                            <div class="stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="price-current">220.000₫</span>
+                                                <span class="price-old">320.000₫</span>
+                                            </div>
+                                            <a href="#" class="view-more">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End content-product-box -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Sidebar-Product -->
+
+    <!-- Top-product -->
+    <div class="product-top">
+        <div class="grid wide">
+            <div class="border-product">
+                <img src="images/icon-sale.png" alt="">
+                <h1>Top bán chạy nhất tuần</h1>
+            </div>
+            
+            <div class="box-top-container">
+                <div class="row">
+                    <div class="col l-4 m-12 c-12">
+                        <div class="product-top-box">
+                            <div class="thumb">
+                                <a href="#"><img src="images/vong.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>20%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+    
+                            <div class="info-product">
+                                <h4><a href="#">Lắc tay mã não Ấn Độ giác Longgem</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">790.000₫</span>
+                                    <span class="price-old">990.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col l-4 m-12 c-12">
+                        <div class="product-top-box">
+                            <div class="thumb">
+                                <div class="home-product-item__img"></div>
+                                <a href="#"><img src="images/donghonam1.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>5%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+    
+                            <div class="info-product">
+                                <h4><a href="#">Đồng hồ Nam Citizen BI5000-87A</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">18.990.000₫</span>
+                                    <span class="price-old">20.990.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col l-4 m-12 c-12">
+                        <div class="product-top-box">
+                            <div class="thumb">
+                                <a href="#"><img src="images/giaydevuong.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>10%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+    
+                            <div class="info-product">
+                                <h4><a href="#">Giày sandal gót vuông SULILY</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">490.000₫</span>
+                                    <span class="price-old">590.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col l-4 m-12 c-12">
+                        <div class="product-top-box">
+                            <div class="thumb">
+                                <a href="#"><img src="images/giaynam1.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>15%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+    
+                            <div class="info-product">
+                                <h4><a href="#">Giày Lười Da Bò Nam AG0169</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">3.590.000₫</span>
+                                    <span class="price-old">5.590.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col l-4 m-12 c-12">
+                        <div class="product-top-box">
+                            <div class="thumb">
+                                <a href="#"><img src="images/vongbac.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>15%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+    
+                            <div class="info-product">
+                                <h4><a href="#">Vòng Tay Pandora Moments</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">5.590.000₫</span>
+                                    <span class="price-old">6.990.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col l-4 m-12 c-12">
+                        <div class="product-top-box">
+                            <div class="thumb">
+                                <a href="#"><img src="images/donghonu.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>5%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+    
+                            <div class="info-product">
+                                <h4><a href="#">Đồng hồ Nữ Elio EL006-01</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">15.990.000₫</span>
+                                    <span class="price-old">20.990.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Top-product -->
+
+    <!-- Like-product -->
+    <div class="product-like">
+        <div class="grid wide">
+            <div class="border-like-product">
+                <h1>Có thể bạn thích :</h1>
+            </div>
+
+            <div class="swiper product_like-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="item-product">
+                            <div class="thumb">
+                                <a href="#"><img src="images/donghonu1.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>15%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="info-product">
+                                <h4><a href="#">Đồng hồ Nữ Elio EL008-01</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">28.990.000₫</span>
+                                    <span class="price-old">33.990.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item-product">
+                            <div class="thumb">
+                                <a href="#"><img src="images/non.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>10%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="info-product">
+                                <h4><a href="#">Mũ phớt thắt da MP02</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">220.000₫</span>
+                                    <span class="price-old">320.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item-product">
+                            <div class="thumb">
+                                <a href="#"><img src="images/donghonam2.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>5%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="info-product">
+                                <h4><a href="#">Đồng hồ Q&Q S280J312Y</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">5.990.000₫</span>
+                                    <span class="price-old">7.990.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item-product">
+                            <div class="thumb">
+                                <a href="#"><img src="images/tuinu.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>10%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="info-product">
+                                <h4><a href="#">Túi xách + túi đeo chéo phối hạt SID61600</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">2.990.000₫</span>
+                                    <span class="price-old">3.990.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item-product">
+                            <div class="thumb">
+                                <a href="#"><img src="images/giaynam1.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>15%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="info-product">
+                                <h4><a href="#">Giày Lười Da Bò Nam AG0169</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">3.590.000₫</span>
+                                    <span class="price-old">5.590.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item-product">
+                            <div class="thumb">
+                                <a href="#"><img src="images/kinhmat.jpg" alt=""></a>
+                                <span class="sale">Giảm <br>15%</span>
+                                <div class="action">
+                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="info-product">
+                                <h4><a href="#">Kính Mát Molsion</a></h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="price-current">350.000₫</span>
+                                    <span class="price-old">490.000₫</span>
+                                </div>
+                                <a href="#" class="view-more">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Like-product -->
+
+    <!-- Discount_banner-container -->
+    <div class="discount_banner-container" style="background-image: url(images/slide6.PNG);">
+        <div class="grid wide">
+            <div class="discount_banner-title">
+                <h3>GIẢM GIÁ LÊN ĐẾN 10% KHI THANH TOÁN ONLINE</h3>
+                <h2>THANH TOÁN CỰC DỄ DÀNG ĐA NỀN TẢNG</h2>
+                <p>Để giúp cho việc mua hàng dễ dàng nhanh chóng, chúng tôi đã sử dụng nền tảng bán hàng mới, khách hàng chỉ cần vài click chuột và sản phẩm sẽ được vận chuyển tận nhà</p>
+                <a href="#" class="btn-primary">Mua ngay</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- End discount_banner-container -->
+
+
+    <!-- Shipping-box -->
+    <div class="icon-shipping-box">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-12 c-12">
+                    <div class="box-col-free-shipping app__content">
+                        <div class="img-free-shipping">
+                            <img src="images/icon_shipping.png" alt="">
+                        </div>
+    
+                        <div class="text-free-shipping">
+                            <h1>Giao hàng cực nhanh</h1>
+                            <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                        </div>                       
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="box-col-free-shipping app__content">
+                        <div class="img-free-shipping">
+                            <img src="images/icon_gift.png" alt="">
+                        </div>
+    
+                        <div class="text-free-shipping">
+                            <h1>Mua hàng siêu tiết kiệm</h1>
+                            <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="box-col-free-shipping app__content">
+                        <div class="img-free-shipping">
+                            <img src="images/icon_heart.png" alt="">
+                        </div>
+    
+                        <div class="text-free-shipping">
+                            <h1>Sản phẩm chính hãng 100%</h1>
+                            <p>Sản phẩm được nhập khẩu chính hãng</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Shipping-box -->
+    <!-- END CONTAINER -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="grid wide footer__content">
+            <div class="row">
+                <div class="col l-4 m-12 c-12">
+                    <div class="box-footer info-contact">
+                        <h3>Thông tin liên hệ</h3>
+                        <div class="content-contact">
+                            <p>Alarm Shopping cửa hàng thời trang hàng đầu Việt Nam</p>
+                            <p>
+                                <strong>Địa chỉ :</strong> 217 Nguyễn Gia Trí, Quận Bình Thạnh, TP.HCM
+                            </p>
+                            <p>
+                                <strong>Email : </strong> mquanh98@gmail.com
+                            </p>
+                            <p>
+                                <strong>Điện thoại : </strong> 0934635xxx
+                            </p>
+                            <p>
+                                <strong>Website : </strong> https://alarm.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="box-footer info-contact">
+                        <h3>Thông tin khác</h3>
+                        <div class="content-list">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Chính sách bảo mật</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Chính sách đổi trả</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Phí vẫn chuyển</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Hướng dẫn thanh toán</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Chương trình khuyến mãi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="box-footer info-contact">
+                        <h3>Form liên hệ</h3>
+                        <div class="content-contact">
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Họ và Tên">
+                                </div>
+
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="email" name="" id="" class="form-control" placeholder="Địa chỉ mail">
+                                </div>
+
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Số điện thoại">
+                                </div>
+
+                                <div class="col l-12 m-12 c-12">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Tiêu đề">
+                                </div>
+
+                                <div class="col l-12 m-12 c-12">
+                                    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn-contact">Liên hệ ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>Copyright © 2022 All Rights Reserved - Design by MaiQuanh</p>
+        </div>
+
+    </footer>
+
+    <!-- END FOOTER SECTION -->
+
+
+    <!-- LINK JS -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
